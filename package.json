@@ -1,0 +1,36 @@
+{
+  "name": "smartdoor",
+  "version": "1.0.0",
+  "description": "this is project for smart door",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --trace-warnings src/index.mjs",
+    "build": "npm install"
+  },
+  "keywords": [
+    "smart",
+    "door"
+  ],
+  "author": "Hoang Anh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "casbin": "^5.36.0",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9",
+    "peer": "^1.0.2",
+    "simple-peer": "^9.11.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "ws": "^8.18.0"
+  }
+}
